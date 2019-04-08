@@ -17,3 +17,6 @@ Przeszukiwanie drzewa:
 
 V1 v1(1), v2(1), ..., vn(1)
 V2 v1(2), v2(2), ..., vn(2)
+
+
+Do sprawka liczba nawrotów i odwiedzone węzły. W części teoretycznej opisać heurystyki. Jeśli długo trwa, opisać, że ustalono limit czasowy i algorytm go przekroczył. OPISAĆ OSI NA WYKRESACH.
