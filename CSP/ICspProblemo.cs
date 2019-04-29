@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSP.Utilities
+namespace CSP_1
 {
-    public class Configuration
+    interface ICspProblemo
     {
-        public static string FilePath;
-
-        //public static 
+        bool BacktrackingSolve();
+        bool ForwardcheckingSolve();
+        void Print();
     }
 }

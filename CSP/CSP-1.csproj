@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36CAB550-AA65-400F-867B-D08B897CD5C8}</ProjectGuid>
+    <ProjectGuid>{D15A75DF-FB98-447C-83C3-B0B1A46D7F8C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSP</RootNamespace>
-    <AssemblyName>CSP</AssemblyName>
+    <RootNamespace>CSP_1</RootNamespace>
+    <AssemblyName>CSP-1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,22 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problems\Assignment.cs" />
-    <Compile Include="Problems\Board.cs" />
-    <Compile Include="Interfaces\IConstraint.cs" />
-    <Compile Include="Problems\Variable.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Futoshiki.cs" />
+    <Compile Include="ICspProblemo.cs" />
+    <Compile Include="Loader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\Configuration.cs" />
-    <Compile Include="Utilities\ObjectValidator.cs" />
+    <Compile Include="Skyscraper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataPrep\" />
-    <Folder Include="Problems\Futoshiki\" />
-    <Folder Include="Problems\Skyscraper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
